@@ -22,10 +22,10 @@ android {
 
     productFlavors {
         flavorDimensions "minReactNative"
-        minReactNative44 {
-            dimension "minReactNative"
+        // minReactNative44 {
+        //     dimension "minReactNative"
 
-        }
+        // }
         minReactNative46 {
             dimension "minReactNative"
         }
@@ -69,11 +69,11 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$_kotlinVersion"
 
-    minReactNative44Implementation 'com.squareup.okhttp3:okhttp:3.4.1'
-    minReactNative44Implementation 'com.squareup.okhttp3:okhttp-ws:3.4.1'
+    // minReactNative44Implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    // minReactNative44Implementation 'com.squareup.okhttp3:okhttp-ws:3.4.1'
 
-    minReactNative46Implementation 'com.squareup.okhttp3:okhttp:3.6.0'
-    minReactNative46Implementation 'com.squareup.okio:okio:1.13.0'
+    // minReactNative46Implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+    // minReactNative46Implementation 'com.squareup.okio:okio:1.13.0'
 
     implementation('com.android.support.test.espresso:espresso-core:3.0.2', {
         exclude group: 'com.google.code.findbugs'
